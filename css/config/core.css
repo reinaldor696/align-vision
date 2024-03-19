@@ -53,6 +53,8 @@ ul {
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  width: 1920px;
+  height: auto;
 }
 /* HTML */
 
@@ -60,8 +62,6 @@ html {
 body {
   background-color:  #FFFFFF !important;
   color: #666666;
-  width: 1920px;
-  height: auto;
 }
 /* Body */
 
