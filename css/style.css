@@ -15,11 +15,84 @@
 
 /* Your Style */
 
-/* Home */
-
 /* Header */
+header {
+    width: 1837px;
+    height: 123px;
+    margin: 48px 50px 36px 33px;
+}
+
+.header-container1 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    background: #F2F3FE;
+    backdrop-filter: blur(2px);
+}
+
+.logo-container {
+    margin: 44px 200px 0 134px;
+    cursor: pointer;
+}
+.logo-container svg {
+    width: 172px;
+    height: 35px;
+}
+
+.nav-bar {
+    display: flex;
+    width: 825px;
+    height: 86px;
+    padding: 31px 62px;
+    margin: 18.5px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    background: #FFF;
+}
+.nav-bar li {
+    cursor: pointer;
+    color: #000;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    opacity: 0.8;
+}
+
+.nav-resources {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-button {
+    width: 284px;
+    height: 70px;
+    display: inline-flex;
+    padding: 18px 43px;
+    margin: 26px 0 0 102px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    background: #1F4283;
+    border: none;
+    cursor: pointer;
+}
+.nav-button p {
+    color: #FFF;
+    text-align: right;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+}
 /* Header End */
 
+/* Home */
 /* Home End */
 
 /* Your Style */
