@@ -90,6 +90,24 @@ header {
 /* Header End */
 
 /* Home */
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.content1-container1 {
+    width: 1146px;
+    height: 832px;
+    border-radius: 35px;
+    background: url("../media/icons/content-home/67dde96641a137b8b4b7c08f3c4a644b.jfif") no-repeat;
+    box-shadow: 0px 4px 25px 6px rgba(31, 66, 131, 0.25);
+}
+.background-content1 {
+    width: 1146px;
+    height: 832px;
+    border-radius: 35px;
+    background: url("../media/icons/content-home/fondo-bokeh-azul-tinta-oscura-abstracta-fondo-luces-azul-cobalto-desenfocado\ 2.png") lightgray -245.08px -85.333px / 137.191% 122.249% no-repeat;
+}
 /* Home End */
 
 /* Your Style */
