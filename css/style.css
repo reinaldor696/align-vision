@@ -17,12 +17,12 @@
 
 /* Header */
 header {
-    height: 123px;
+    height: 6.40625vw;
     width: 95.677vw;
     margin: 2.5vw 2.604vw 1.875vw 1.719vw;
     display: flex;
     flex-direction: row;
-    border-radius: 30px;
+    border-radius: 1.5625vw;
     background: #F2F3FE;
     backdrop-filter: blur(2px);
 }
@@ -30,27 +30,28 @@ header {
 .logo-container {
     margin: 2.292vw 10.417vw 0 6.979vw;;
     cursor: pointer;
+    display: flex;
 }
 .logo-container svg {
-    width: 172px;
-    height: 35px;
+    width: 8.958333vw;
+    height: 1.822917vw;
 }
 
 .nav-bar {
     display: flex;
     width: 42.969vw;
-    height: 86px;
-    padding: 31px 62px;
-    margin: 18.5px 0;
+    height: 4.479167vw;
+    padding: 1.614583vw 3.229167vw;
+    margin: .963542vw 0;
     justify-content: space-between;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 1.302083vw;
     background: #FFF;
 }
 .nav-bar li {
     cursor: pointer;
     color: #000;
-    font-size: 21px;
+    font-size: 1.09375vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -61,7 +62,11 @@ header {
 .nav-resources {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: .260417vw;
+}
+.nav-resources svg {
+    width: 1.302083vw;
+    height: 1.302083vw;
 }
 
 .nav-button {
@@ -72,8 +77,8 @@ header {
     margin: 1.354vw 0 0 5.313vw;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border-radius: 15px;
+    gap: .520833vw;
+    border-radius: .78125vw;
     background: #1F4283;
     border: none;
     cursor: pointer;
@@ -81,11 +86,15 @@ header {
 .nav-button p {
     color: #FFF;
     text-align: right;
-    font-size: 25px;
+    font-size: 1.302083vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -1px;
+}
+.nav-button svg {
+    width: 1.770833vw;
+    height: 1.770833vw;
 }
 /* Header End */
 
@@ -95,18 +104,190 @@ header {
     flex-direction: row;
 }
 
+.content1-2-container {
+    display: flex;
+    flex-direction: row;
+    gap: .9375vw;
+}
+
 .content1-container1 {
     width: 59.688vw;
     height: 43.281vw;
-    border-radius: 35px;
+    border-radius: 1.822917vw;
     background: #1F4283;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 0 0 2.604167vw;
 }
 
 .background1 {
-    background: url("../media/icons/content-home/fondo-bokeh-azul-tinta-oscura-abstracta-fondo-luces-azul-cobalto-desenfocado\ 2.png");
+    width: 62.1vw;
+    height: 46.5vw;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.content1-container1-content {
+    position: absolute;
+}
+
+.title-content1-container{
+    margin: 9.625208vw 0 0 5.104167vw;
+}
+.title-content1-container h2 {
+    font-size: 4.6875vw;
+    color: #FFF;
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -.1875vw;
+}
+.title-contet1-container span {
+    color: #FFF;
+    font-family: Gordita;
+    font-size: 4.6875vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -.1875vw;
+}
+
+.card1-container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitle-buttons--content1-container1 {
+    margin: 2.5vw 0 0 5.3125vw;
+}
+
+.subtitle-content1-container {
+    color:  #F2F3FE;
+    font-family: "PP Neue Montreal";
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.buttons-content1-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.197917vw;
+    margin: 3.697917vw 0 1.302083vw 0;
+}
+
+.get-free-btn {
+    padding: 1.041667vw 2.5vw;
+    border-radius: .78125vw;
+    background: #FFF;
+    cursor: pointer;
+    width: 12.8125vw;
+    height: 4.895833vw;
+    color: #0B1831;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 1.302083vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.0520vw;
+    border: none;
+}
+
+.explore-software-btn {
+    border-radius: .78125vw;
+    padding: 1.041667vw 2.5vw;
+    border: 1px solid #94ACE8;
+    border-radius: .78125vw;
+    color: #94ACE8;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 1.302083vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+    background: none;
+    cursor: pointer;
+    width: 14.739583vw;
+    height: 4.895833vw;
+}
+
+.text-no-credit-card {
+    margin-left: 8.020833vw;
+    color: #F2F3FE;
+    font-family: Gordita;
+    font-size: 1.041667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -.8px;
+    opacity: 0.5;
+}
+
+.patients-container1 {
+    margin: 4.114583vw 0 0 5.989583vw;
+}
+
+.content2-container1 {
+    width: 34.166667vw;
+    height: 43.28125vw;
+    border-radius: 1.822917vw;
+    background: linear-gradient(149deg, #94ACE8 21.11%, #FFF 39.18%, #D9E6FD 52.6%);
+}
+
+.card__bullets {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.card__bullet__btn {
+    width: 2.916667vw;
+    height: 2.916667vw;
+    position: absolute;
+    margin: .104167vw .520833vw 0 0;
+    cursor: pointer;
+}
+
+.svg-backgroung-card1 {
+    width: 18.645833vw;
+    height: 12.604167vw;
+}
+
+.content-card1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.content-card1 img {
+    width: 10.625vw;
+    height: 3.063542vw;
+    margin: 1.302083vw 0 .18px 31px;
+}
+.content-card1 h2 {
+    color: #2856AD;
+    font-family: "PP Neue Montreal";
+    font-size: 2.833333vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.565%;
+    letter-spacing: -.113333vw;
+    margin-left: 1.666667vw;
+}
+.content-card1 h3 {
+    color: #2856AD;
+    font-family: "PP Neue Montreal";
+    font-size: 3.628333vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 123.565%;
+    letter-spacing: -.145156vw;
 }
 /* Home End */
 
