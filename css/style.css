@@ -99,15 +99,14 @@ header {
 /* Header End */
 
 /* Home */
-.container1 {
-    display: flex;
-    flex-direction: row;
-}
+
+/* Container1 */
 
 .content1-2-container {
     display: flex;
     flex-direction: row;
     gap: .9375vw;
+    margin-bottom: 3.958333vw;
 }
 
 .content1-container1 {
@@ -268,7 +267,7 @@ header {
 .content-card1 img {
     width: 10.625vw;
     height: 3.063542vw;
-    margin: 1.302083vw 0 .18px 31px;
+    margin: 1.302083vw 0 .18px 1.614583vw;
 }
 .content-card1 h2 {
     color: #2856AD;
@@ -288,7 +287,147 @@ header {
     font-weight: 400;
     line-height: 123.565%;
     letter-spacing: -.145156vw;
+    margin: -.885417vw 0 0 5.833333vw;
 }
+
+.title-content3 {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 7.083333vw;
+    color: #94ACE8;
+    font-family: Gordita;
+    font-size: 4.166667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -.166667vw;
+}
+.title-content3 span {
+    color: #94ACE8;
+    font-family: Gordita;
+    font-size: 4.166667vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.2px;
+}
+
+.content3-logo-plans {
+    width: 100vw;
+    height: 32.604167vw;
+}
+.content3-logo-plans svg {
+    width: 100vw;
+    height: 32.604167vw;
+}
+
+.title-content4-container1 {
+    color:  #152D5A;
+    font-family: Gordita;
+    font-size: 3.385417vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -.135417vw;
+    margin: 3.645833vw 0 5.3125vw 40.833333vw;
+}
+.title-content4-container1 span {
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: 3.385417vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -.135417vw;
+}
+
+.img-content4-container1 img {
+    width: 40.520833vw;
+    height: 30.729167vw;
+}
+
+.img-text-content4-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6.822917vw;
+}
+
+.text-content4-container1 {
+    margin-left: 9.479167vw;
+}
+.text-content4-container1 h3 {
+    color: #94ACE8;
+    font-family: Gordita;
+    font-size: 2.083333vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: -.083333vw;
+}
+
+.all-text-content4 {
+    margin-left: .15625vw;
+}
+
+.text1-content4-container1 {
+    display: flex;
+    flex-direction: row;
+    gap: .520833vw;
+    margin-top: 2.8125vw;
+}
+.text1-content4-container1 svg {
+    width: 1.770833vw;
+    height: 1.770833vw;
+}
+.text1-content4-container1 p {
+    color: #707C93;
+    font-family: "PP Neue Montreal";
+    font-size: 1.666667vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.text2-content4-container1 {
+    display: flex;
+    flex-direction: row;
+    gap: .520833vw;
+    margin: 2.8125vw 0 4.322917vw 0;
+}
+.text2-content4-container1 svg {
+    width: 1.770833vw;
+    height: 1.770833vw;
+}
+.text2-content4-container1 p {
+    color: #707C93;
+    font-family: "PP Neue Montreal";
+    font-size: 1.666667vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.text3-content4-container1 {
+    display: flex;
+    flex-direction: row;
+    gap: .520833vw;
+}
+.text3-content4-container1 svg {
+    width: 1.770833vw;
+    height: 1.770833vw;
+}
+.text3-content4-container1 p {
+    color: #707C93;
+    font-family: "PP Neue Montreal";
+    font-size: 1.666667vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+/* Container1 End */
+
 /* Home End */
 
 /* Your Style */
