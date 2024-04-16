@@ -674,6 +674,92 @@ header {
     line-height: normal;
     letter-spacing: -1px;
 }
+
+.content2-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.tittle-content2-container2 {
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: 4.6875vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -.1875vw;
+    margin: 7.03125vw 0 4.84375vw 0;
+}
+.tittle-content2-container2 span {
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: 4.6875vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -.1875vw;
+}
+
+.doctors-cards-container {
+    display: flex;
+    padding: 4.895833vw 3.229167vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.125vw;
+    border-radius: 1.5625vw;
+    border: .5px solid #1F4283;
+    background: linear-gradient(101deg, rgba(255, 255, 255, 0.25) 3.27%, rgba(183, 208, 255, 0.25) 27.11%, rgba(217, 230, 253, 0.25) 75.74%);
+    width: 28.90625vw;
+    height: 26.979167vw;
+}
+
+.doctors-card1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-content2-container2 {
+
+}
+.img-content2-container2 img {
+    width: 6.25vw;
+    height: 6.25vw;
+}
+
+.svg-doctors-card1-container svg {
+    width: 3.802083vw;
+    height: 2.34375vw;
+}
+
+.info-doctors-content2-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.span1-info-doctors-content2-container2{
+    color: #707C93;
+    text-align: center;
+    font-family: "PP Neue Montreal";
+    font-size: 1.041667vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.span2-info-doctors-content2-container2{
+    color: #152D5A;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 1.770833vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 /* Container2 End */
 
 /* Home End */
