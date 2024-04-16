@@ -680,6 +680,7 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    margin-bottom: 7.083333vw;
 }
 
 .tittle-content2-container2 {
@@ -691,6 +692,7 @@ header {
     line-height: normal;
     letter-spacing: -.1875vw;
     margin: 7.03125vw 0 4.84375vw 0;
+    text-align: center;
 }
 .tittle-content2-container2 span {
     color: #152D5A;
@@ -700,6 +702,13 @@ header {
     font-weight: 500;
     line-height: normal;
     letter-spacing: -.1875vw;
+}
+
+.all-doctors-cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.875vw;
+    align-items: center;
 }
 
 .doctors-cards-container {
@@ -733,6 +742,7 @@ header {
 .svg-doctors-card1-container svg {
     width: 3.802083vw;
     height: 2.34375vw;
+    margin: .520833vw 0 .260417vw 0;
 }
 
 .info-doctors-content2-container2{
@@ -759,6 +769,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 1.197917vw;
 }
 /* Container2 End */
 
