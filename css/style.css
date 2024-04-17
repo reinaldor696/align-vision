@@ -637,13 +637,12 @@ header {
 .button1-content1-container2 {
     width: 12.8125vw;
     height: 4.895833vw;
-    padding: 1.041667vw 2.5vw;
     justify-content: center;
     align-items: center;
     gap: .520833vw;
     border-radius: 15px;
     background: #1F4283;
-    color: var(--White, #FFF);
+    color: #FFF;
     text-align: center;
     font-family: Gordita;
     font-size: 1.302083vw;
@@ -659,7 +658,6 @@ header {
     width: 14.739583vw;
     height: 4.895833vw;
     display: flex;
-    padding: 1.041667vw 2.5vw;
     justify-content: center;
     align-items: center;
     gap: .520833vw;
@@ -732,9 +730,6 @@ header {
     align-items: center;
 }
 
-.img-content2-container2 {
-
-}
 .img-content2-container2 img {
     width: 6.25vw;
     height: 6.25vw;
@@ -771,6 +766,119 @@ header {
     font-weight: 500;
     line-height: normal;
     margin-top: 1.197917vw;
+}
+
+.background-content3-container2 {
+    width: 94.791667vw;
+    height: 63.333333vw;
+    border-radius: 35px;
+    box-shadow: 0px 4px 25px 6px rgba(31, 66, 131, 0.25);
+    border-radius: 1.822917vw;
+    background: #1F4283;
+    margin-left: 2.604167vw;
+    display: flex;
+    justify-content: center;
+}
+
+.all-content3-container2 {
+    position: absolute;
+}
+
+.title-content3-container2 {
+    color: #F2F3FE;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 1.145833vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: .091667vw;
+    margin: 5.3125vw 0 1.145833vw 0;
+}
+
+.subtitle-content3-container2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 3.90625vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -.15625vw;
+    margin-bottom: 3.59375vw;
+}
+.subtitle-content3-container2 span {
+    color: #FFF;
+    font-family: Gordita;
+    font-size: 3.90625vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -.15625vw;
+}
+
+.cards-content3-container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2.34375vw;
+}
+
+.content-card-content3-container2 {
+    width: 26.40625vw;
+    height: 35.729167vw;
+    display: flex;
+    padding: .9375vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.083333vw;
+    align-self: stretch;
+    border-radius: 1.5625vw;
+    background: #FFF;
+}
+.content-card-content3-container2 img {
+    width: 24.53125vw;
+    height: 16.354167vw;
+    border-radius: 1.5625vw;
+}
+.content-card-content3-container2 h3 {
+    color: #1F4283;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 1.666667vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -.066667vw;
+}
+.content-card-content3-container2 p {
+    color: #707C93;
+    text-align: center;
+    font-family: "PP Neue Montreal";
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    align-self: stretch;
+}
+.content-card-content3-container2 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .520833vw;
+    border-radius: .78125vw;
+    background: #1F4283;
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 1.302083vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+    cursor: pointer;
+    border: none;
+    width: 9.375vw;
+    height: 3.489583vw;
 }
 /* Container2 End */
 
