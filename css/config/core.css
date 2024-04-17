@@ -12,7 +12,10 @@
 /* ################################## */
             /*Fonts*/
 /* ################################## */
-
+@font-face {
+  font-family: "Gordita";
+  src: url("../../media/fonts/Gordita-Regular.otf") format("truetype");
+}
 /* ################################## */
             /*Plugins*/
 /* ################################## */
@@ -341,7 +344,7 @@ body {
 
   body {
     background-color: #111;
-    font-family: ;
+    font-family: Gordita;
     overscroll-behavior: none;
     margin: 0;
     padding: 0;
