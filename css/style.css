@@ -1233,299 +1233,205 @@ header {
 /* Container4 End */
 
 /* Container5 */
-.main-container {
-    overflow: hidden;
+.container5 {
+    position: relative;
+    width: 100vw;
+    height: 69.791667vw;
 }
 
-.main-container,
-.main-container * {
-    box-sizing: border-box;
+.container5-content-give-your-patients {
+    position: absolute;
+    top: 14.479167vw;
+    left: 18.645833vw;
+    font-family: "Gordita-Regular", Helvetica;
+    font-weight: 400;
+    color: #1f4283;
+    font-size: 5.729167vw;
+    text-align: center;
+    letter-spacing: -.229167vw;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
 }
-  
-  input,
-  select,
-  textarea,
-  button {
-    outline: 0;
-  }
-  
-  .main-container {
-    position: relative;
-    width: 1920px;
-    height: 1340px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  .best-smiles {
-    position: relative;
-    width: 1204px;
-    height: 238px;
-    margin: 279px 0 0 358px;
-    font-family: Gordita, var(--default-font-family);
-    font-size: 110px;
+
+#container5-content-text-wrapper-span {
     font-weight: 400;
-    line-height: 118.69px;
-    text-align: center;
-    text-overflow: initial;
-    white-space: nowrap;
-    letter-spacing: -4.4px;
-  }
-  .best-smiles-1 {
-    position: relative;
-    color: #1f4283;
-    font-family: Gordita, var(--default-font-family);
-    font-size: 110px;
-    font-weight: 400;
-    line-height: 118.69px;
-    text-align: center;
-    letter-spacing: -4.4px;
-  }
-  .easy-way {
-    position: relative;
-    color: #1f4283;
-    font-family: Gordita, var(--default-font-family);
-    font-size: 110px;
+}
+
+.container5-content-text-wrapper {
+    letter-spacing: -.252083vw;
+}
+
+.container5-content-span {
+    font-family: "Gordita-Bold", Helvetica;
     font-weight: 700;
-    line-height: 118.69px;
-    text-align: center;
-    letter-spacing: -4.4px;
-  }
-  .empty {
-    position: relative;
-    color: #1f4283;
-    font-family: Gordita, var(--default-font-family);
-    font-size: 110px;
-    font-weight: 400;
-    line-height: 118.69px;
-    text-align: center;
-    letter-spacing: -4.4px;
-  }
-  .joel-mott {
-    position: relative;
-    width: 407px;
-    height: 131px;
-    margin: 22px 0 0 760px;
-    background: url(../media/icons/content-home/joel-mott-LaK153ghdig-unsplash\ 1.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 1;
-    border-radius: 30px;
-  }
-  .container {
-    display: flex;
+    letter-spacing: -.252083vw;
+}
+
+.container5-content-joel-mott {
+    position: absolute;
+    width: 21.197917vw;
+    height: 6.822917vw;
+    top: 28.072917vw;
+    left: 39.583333vw;
+}
+
+.container5-content-container {
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: nowrap;
-    gap: 13px;
-    position: relative;
-    width: 409px;
-    margin: 50px 0 0 755px;
-    z-index: 2;
-  }
-  .empty-2 {
-    display: flex;
+    gap: .677083vw;
+    position: absolute;
+    top: 37.5vw;
+    left: 38vw;
+}
+
+.container5-content-element {
+    display: inline-flex;
     align-items: flex-start;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 32px;
+    gap: 1.666667vw;
     position: relative;
-    width: 342px;
-    z-index: 3;
-  }
-  .pattern-icon {
-    flex-shrink: 0;
+    flex: 0 0 auto;
+}
+
+.container5-content-pattern-icon {
     position: relative;
-    width: 34px;
-    height: 34px;
-    background: url(./assets/images/72cab7cc-51a6-4c5f-9d6a-ea5003f6a320.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 4;
-  }
-  .free-case-evaluation {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
+    width: 1.770833vw;
+    height: 1.770833vw;
+}
+
+.container5-content-div {
     position: relative;
-    width: 276px;
-    height: 40px;
-    color: #707c92;
-    font-family: PP Neue Montreal, var(--default-font-family);
-    font-size: 32px;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "PP Neue Montreal", Helvetica;
     font-weight: 400;
-    line-height: 40px;
+    color: #707c93;
+    font-size: 1.666667vw;
     text-align: center;
+    letter-spacing: 0px;
+    line-height: 126%;
     white-space: nowrap;
-    z-index: 5;
-  }
-  .empty-3 {
-    display: flex;
+    font-style: normal;
+}
+
+.container5-content-element-2 {
+    display: inline-flex;
     align-items: center;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 18px;
+    gap: .9375vw;
     position: relative;
-    width: 399px;
-    z-index: 6;
-  }
-  .pattern-icon-4 {
-    flex-shrink: 0;
-    position: relative;
-    width: 34px;
-    height: 34px;
-    background: url(./assets/images/b6dfd800-b275-4df5-8cf7-eeda6b9a8d70.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 7;
-  }
-  .unlimited-communication {
-    display: flex;
+    flex: 0 0 auto;
+}
+
+.container5-content-element-3 {
+    display: inline-flex;
     align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
+    gap: .729167vw;
     position: relative;
-    width: 347px;
-    height: 40px;
-    color: #707c92;
-    font-family: PP Neue Montreal, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 8;
-  }
-  .empty-5 {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 14px;
-    position: relative;
-    width: 342px;
-    z-index: 9;
-  }
-  .pattern-icon-6 {
-    flex-shrink: 0;
-    position: relative;
-    width: 34px;
-    height: 34px;
-    background: url(./assets/images/cec23f3c-74ec-47e9-b4d0-93b1165e5097.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 10;
-  }
-  .same-day-responses {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 294px;
-    height: 40px;
-    color: #707c92;
-    font-family: PP Neue Montreal, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 11;
-  }
-  .empty-7 {
-    display: flex;
+    flex: 0 0 auto;
+}
+
+.container5-content-element-4 {
+    display: inline-flex;
     align-items: center;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 8px;
+    gap: .416667vw;
     position: relative;
-    width: 409px;
-    z-index: 12;
-  }
-  .pattern-icon-8 {
-    flex-shrink: 0;
-    position: relative;
-    width: 34px;
-    height: 34px;
-    background: url(./assets/images/defa6a68-0b44-4ad3-a1f8-21b86b111d26.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 13;
-  }
-  .case-histories {
-    display: flex;
+    flex: 0 0 auto;
+}
+
+.container5-content-element-5 {
+    display: inline-flex;
     align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
+    gap: .9375vw;
     position: relative;
-    width: 367px;
-    height: 40px;
-    color: #707c92;
-    font-family: PP Neue Montreal, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 14;
-  }
-  .group-2 {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 18px;
-    position: relative;
-    width: 288px;
-    z-index: 15;
-  }
-  .pattern-icon-9 {
-    flex-shrink: 0;
-    position: relative;
-    width: 34px;
-    height: 34px;
-    background: url(./assets/images/55d40eb0-2457-4af7-852a-32df408c8c98.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 16;
-  }
-  .ongoing-support {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 236px;
-    height: 40px;
-    color: #707c92;
-    font-family: PP Neue Montreal, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 17;
-  }
-  .btn-text {
-    display: flex;
+    flex: 0 0 auto;
+}
+
+.container5-content-btn-and-text {
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: nowrap;
-    gap: 25px;
-    position: relative;
-    width: 552px;
-    margin: 50px 0 0 684px;
-    z-index: 18;
-  }
-  .btn-container {
-    display: flex;
+    gap: 1.302083vw;
+    position: absolute;
+    top: 53.229167vw;
+    left: 35.625vw;
+}
+
+.container5-content-btn-container {
     align-items: flex-start;
+    gap: 1.197917vw;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.container5-content-btn {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .520833vw;
+    padding: 1.041667vw 2.5vw;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #1f4283;
+    border-radius: .78125vw;
+}
+
+.container5-content-get-started-today {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Gordita-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 1.302083vw;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: normal;
+}
+
+.container5-content-button {
+    all: unset;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: .520833vw;
+    padding: 1.041667vw 2.5vw;
+    border-radius: .78125vw;
+    border: 1px solid;
+    border-color: #94ace8;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.container5-content-get-started-today-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Gordita-Medium", Helvetica;
+    font-weight: 500;
+    color: #94ace8;
+    font-size: 1.302083vw;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: normal;
+}
+
+.container5-content-text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    opacity: 0.5;
+    font-family: "Gordita-Bold", Helvetica;
+    font-weight: 700;
+    color: #707c93;
+    font-size: 1.041667vw;
+    letter-spacing: -.8px;
+    line-height: 1.5625vw;
+    white-space: nowrap;
+}
 /* Container5 End */
 
 /* Home End */
