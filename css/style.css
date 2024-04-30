@@ -1585,7 +1585,7 @@ header {
     top: 0;
     left: 0;
     background-color: #ffffff;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: calc(15 / 1080 * 100vh) calc(15 / 1920 * 100vw); 15px 0px 0px;
 }
 
 .services-software-access {
@@ -1862,7 +1862,7 @@ header {
     top: calc(1417 / 1080 * 100vh);
     left: calc(1 / 1920 * 100vw);
     background-color: #ffffff;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: calc(0 / 1080 * 100vh) calc(0 / 1920 * 100vw); 0px 15px 15px;
 }
 
 .services-text-wrapper-7 {
@@ -2302,7 +2302,7 @@ header {
     top: calc(3 / 1080 * 100vh);
     left: 14.114583vw;
     background-color: #94ace8;
-    border-radius: 0px 0px 0px 13.89px;
+    border-radius: calc(0 / 1080 * 100vh) calc(0 / 1920 * 100vw); 0px 0px 13.89px;
 }
 
 .services-most-popular {
@@ -2481,7 +2481,7 @@ header {
     top: 0;
     left: 12.291667vw;
     background-color: #94ace8;
-    border-radius: 0px 0px 0px 13.89px;
+    border-radius: calc(0 / 1080 * 100vh) calc(0 / 1920 * 100vw); 0px 0px 13.89px;
 }
 
 .services-most-popular-2 {
@@ -3031,7 +3031,7 @@ header {
     top: calc(2328 / 1080 * 100vh);
     left: 0;
     background-color: var(--brand-colordark-blue);
-    border-radius: 50px 50px 0px 0px;
+    border-radius: calc(50 / 1080 * 100vh) calc(50 / 1920 * 100vw); 50px 0px 0px;
     overflow: hidden;
 }
 
@@ -4070,7 +4070,408 @@ header {
     white-space: nowrap;
 }
 
-/* Blog single page */
+/* Blog single page End */
+
+/* About us */
+.about-us {
+    background-color: #f9f7ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-us-div {
+    background-color: #f9f7ff;
+    overflow: hidden;
+    width: calc(1920 / 1920 * 100vw);
+    height: calc(5180 / 1080 * 100vh);
+    position: relative;
+}
+
+.about-us-hero-about-us {
+    position: absolute;
+    width: calc(1818 / 1920 * 100vw);
+    height: calc(800 / 1080 * 100vh);
+    top: calc(23 / 1080 * 100vh);
+    left: calc(44 / 1920 * 100vw);
+}
+
+.about-us-content {
+    position: relative;
+    height: calc(800 / 1080 * 100vh);
+    background-color: #94abe833;
+    border-radius: calc(35 / 1080 * 100vh) calc(35 / 1920 * 100vw);
+    overflow: hidden;
+    background-image: url(https://c.animaapp.com/lNAuRkWM/img/fondo-bokeh-azul-tinta-oscura-abstracta-fondo-luces-azul-cobalto.png);
+    background-size: 100% 100%;
+}
+
+.about-us-vector {
+    position: absolute;
+    width: calc(144 / 1920 * 100vw);
+    height: calc(170 / 1080 * 100vh);
+    top: calc(320 / 1080 * 100vh);
+    left: calc(830 / 1920 * 100vw);
+    object-fit: contain;
+}
+
+.about-us-frame {
+    position: absolute;
+    width: calc(1826 / 1920 * 100vw);
+    height: calc(1097 / 1080 * 100vh);
+    top: calc(863 / 1080 * 100vh);
+    left: calc(50 / 1920 * 100vw);
+    background-color: #ffffff;
+    border-radius: calc(30 / 1080 * 100vh) calc(30 / 1920 * 100vw);
+    overflow: hidden;
+}
+
+.about-us-dr-amer-ariat {
+    position: absolute;
+    top: calc(315 / 1080 * 100vh);
+    left: calc(910 / 1920 * 100vw);
+    font-family: "Gordita-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--brand-colorprimary);
+    font-size: calc(70 / 1920 * 100vw);
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.about-us-founder-CEO-of {
+    position: absolute;
+    top: calc(497 / 1080 * 100vh);
+    left: calc(910 / 1920 * 100vw);
+    font-family: "Gordita-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--alternative-blue);
+    font-size: calc(32 / 1920 * 100vw);
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.about-us-driven-by-a-dentist {
+    position: absolute;
+    width: calc(763 / 1920 * 100vw);
+    top: calc(562 / 1080 * 100vh);
+    left: calc(910 / 1920 * 100vw);
+    font-family: var(--paragraph-32-px-book-font-family);
+    font-weight: var(--paragraph-32-px-book-font-weight);
+    color: var(--paragraph-gray);
+    font-size: var(--paragraph-32-px-book-font-size);
+    letter-spacing: var(--paragraph-32-px-book-letter-spacing);
+    line-height: var(--paragraph-32-px-book-line-height);
+    font-style: var(--paragraph-32-px-book-font-style);
+}
+
+.about-us-pattern-icon {
+    position: absolute;
+    width: calc(152 / 1920 * 100vw);
+    height: calc(152 / 1080 * 100vh);
+    top: calc(363 / 1080 * 100vh);
+    left: calc(1474 / 1920 * 100vw);
+}
+
+.about-us-element-copy {
+    position: absolute;
+    width: calc(600 / 1920 * 100vw);
+    height: calc(757 / 1080 * 100vh);
+    top: calc(169 / 1080 * 100vh);
+    left: calc(134 / 1920 * 100vw);
+    border-radius: calc(30 / 1080 * 100vh) calc(30 / 1920 * 100vw);
+}
+
+.about-us-overlap {
+    position: absolute;
+    width: calc(1923 / 1920 * 100vw);
+    height: calc(2106 / 1080 * 100vh);
+    top: calc(1961 / 1080 * 100vh);
+    left: 0;
+}
+
+.about-us-frame-2 {
+    position: absolute;
+    width: calc(1922 / 1920 * 100vw);
+    height: calc(1197 / 1080 * 100vh);
+    top: 0;
+    left: calc(1 / 1920 * 100vw);
+}
+
+.about-us-the-challengue-we {
+    position: absolute;
+    width: calc(938 / 1920 * 100vw);
+    top: calc(300 / 1080 * 100vh);
+    left: calc(149 / 1920 * 100vw);
+    font-family: "Gordita-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--brand-colorprimary);
+    font-size: calc(120 / 1920 * 100vw);
+    letter-spacing: calc(-4.8 / 1920 * 100vw);
+    line-height: normal;
+}
+
+.about-us-text-wrapper {
+    letter-spacing: calc(-5.76 / 1920 * 100vw);
+}
+
+.about-us-span {
+    font-family: "Gordita-Italic", Helvetica;
+    font-style: italic;
+    letter-spacing: calc(-5.76 / 1920 * 100vw);
+}
+
+.about-us-text-wrapper-2 {
+    font-family: "Gordita-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: calc(-5.76 / 1920 * 100vw);
+}
+
+.about-us-ortodoncista {
+    position: absolute;
+    width: calc(832 / 1920 * 100vw);
+    height: calc(749 / 1080 * 100vh);
+    top: calc(302 / 1080 * 100vh);
+    left: calc(1087 / 1920 * 100vw);
+    object-fit: cover;
+    border-radius: calc(30 / 1080 * 100vh) calc(30 / 1920 * 100vw);
+}
+
+.about-us-faced-with-the {
+    position: absolute;
+    width: calc(796 / 1920 * 100vw);
+    top: calc(720 / 1080 * 100vh);
+    left: calc(165 / 1920 * 100vw);
+    font-family: var(--paragraph-32-px-book-font-family);
+    font-weight: var(--paragraph-32-px-book-font-weight);
+    color: var(--paragraph-gray);
+    font-size: var(--paragraph-32-px-book-font-size);
+    letter-spacing: var(--paragraph-32-px-book-letter-spacing);
+    line-height: var(--paragraph-32-px-book-line-height);
+    font-style: var(--paragraph-32-px-book-font-style);
+}
+
+.about-us-text-wrapper-3 {
+    position: absolute;
+    top: calc(638 / 1080 * 100vh);
+    left: calc(171 / 1920 * 100vw);
+    font-family: "Gordita-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--alternative-blue);
+    font-size: calc(42 / 1920 * 100vw);
+    letter-spacing: 0;
+    line-height: calc(52.9 / 1080 * 100vh);
+    white-space: nowrap;
+}
+
+.about-us-frame-3 {
+    position: absolute;
+    width: calc(1920 / 1920 * 100vw);
+    height: calc(910 / 1080 * 100vh);
+    top: calc(1196 / 1080 * 100vh);
+    left: 0;
+}
+
+.about-us-overlap-group {
+    position: absolute;
+    width: calc(705 / 1920 * 100vw);
+    height: calc(248 / 1080 * 100vh);
+    top: calc(543 / 1080 * 100vh);
+    left: calc(608 / 1920 * 100vw);
+}
+
+.about-us-the-alignvision {
+    position: absolute;
+    top: 0;
+    left: calc(89 / 1920 * 100vw);
+    font-family: "Gordita-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--alternative-blue);
+    font-size: calc(42 / 1920 * 100vw);
+    text-align: center;
+    letter-spacing: 0;
+    line-height: calc(52.9 / 1080 * 100vh);
+}
+
+.about-us-experience-reduced {
+    position: absolute;
+    width: calc(705 / 1920 * 100vw);
+    top: calc(128 / 1080 * 100vh);
+    left: 0;
+    font-family: var(--paragraph-32-px-book-font-family);
+    font-weight: var(--paragraph-32-px-book-font-weight);
+    color: var(--paragraph-gray);
+    font-size: var(--paragraph-32-px-book-font-size);
+    text-align: center;
+    letter-spacing: var(--paragraph-32-px-book-letter-spacing);
+    line-height: var(--paragraph-32-px-book-line-height);
+    font-style: var(--paragraph-32-px-book-font-style);
+}
+
+.about-us-text-wrapper-4 {
+    position: absolute;
+    top: calc(325 / 1080 * 100vh);
+    left: calc(739 / 1920 * 100vw);
+    font-family: "Gordita-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--brand-colorprimary);
+    font-size: calc(90 / 1920 * 100vw);
+    letter-spacing: calc(-3.6 / 1920 * 100vw);
+    line-height: calc(113.4 / 1080 * 100vh);
+    white-space: nowrap;
+}
+
+.about-us-text-wrapper-5 {
+    position: absolute;
+    top: calc(249 / 1080 * 100vh);
+    left: calc(812 / 1920 * 100vw);
+    font-family: "Gordita-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--brand-colorprimary);
+    font-size: calc(60 / 1920 * 100vw);
+    letter-spacing: calc(-2.4 / 1920 * 100vw);
+    line-height: calc(75.6 / 1080 * 100vh);
+    white-space: nowrap;
+}
+
+.about-us-value-icons {
+    position: absolute;
+    width: calc(120 / 1920 * 100vw);
+    height: calc(120 / 1080 * 100vh);
+    top: calc(112 / 1080 * 100vh);
+    left: calc(898 / 1920 * 100vw);
+    object-fit: contain;
+}
+
+.about-us-img {
+    position: absolute;
+    width: calc(2 / 1920 * 100vw);
+    height: calc(60 / 1080 * 100vh);
+    top: calc(451 / 1080 * 100vh);
+    left: calc(959 / 1920 * 100vw);
+}
+
+.about-us-vision {
+    position: absolute;
+    width: calc(1920 / 1920 * 100vw);
+    height: calc(917 / 1080 * 100vh);
+    top: calc(4142 / 1080 * 100vh);
+    left: 0;
+}
+
+.about-us-overlap-2 {
+    position: relative;
+    width: calc(1882 / 1920 * 100vw);
+    height: calc(833 / 1080 * 100vh);
+    top: calc(47 / 1080 * 100vh);
+    left: calc(19 / 1920 * 100vw);
+}
+
+.about-us-solid-blue-bg {
+    position: absolute;
+    width: calc(1820 / 1920 * 100vw);
+    height: calc(770 / 1080 * 100vh);
+    top: calc(27 / 1080 * 100vh);
+    left: calc(31 / 1920 * 100vw);
+    background-color: var(--brand-colorsecondary);
+    border-radius: calc(35 / 1080 * 100vh) calc(35 / 1920 * 100vw);
+}
+
+.about-us-fondo-bokeh-azul {
+    position: absolute;
+    width: calc(1820 / 1920* 100vw);
+    height: calc(770 / 1080* 100vh);
+    top: calc(27 / 1080* 100vh);
+    left: calc(30 / 1920* 100vw);
+    border-radius: calc(35 / 1080* 100vh) calc(35 / 1920* 100vw);
+}
+
+.about-us-text-wrapper-6 {
+    position: absolute;
+    top: calc(402 / 1080 * 100vh);
+    left: calc(948 / 1920 * 100vw);
+    font-family: "Gordita-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--alternative-blue);
+    font-size: calc(45 / 1920 * 100vw);
+    letter-spacing: 0;
+    line-height: calc(56.7 / 1080 * 100vh);
+    white-space: nowrap;
+}
+
+.about-us-join-our-community {
+    position: absolute;
+    width: calc(895 / 1920 * 100vw);
+    top: calc(136 / 1080 * 100vh);
+    left: calc(941 / 1920 * 100vw);
+    font-family: "Gordita-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: calc(120 / 1920 * 100vw);
+    letter-spacing: calc(-4.8 / 1920 * 100vw);
+    line-height: calc(120 / 1080 * 100vh);
+}
+
+.about-us-be-part-of-the {
+    position: absolute;
+    width: calc(852 / 1920 * 100vw);
+    top: calc(470 / 1080 * 100vh);
+    left: calc(948 / 1920 * 100vw);
+    font-family: var(--paragraph-32-px-book-font-family);
+    font-weight: var(--paragraph-32-px-book-font-weight);
+    color: var(--white);
+    font-size: var(--paragraph-32-px-book-font-size);
+    letter-spacing: var(--paragraph-32-px-book-letter-spacing);
+    line-height: var(--paragraph-32-px-book-line-height);
+    font-style: var(--paragraph-32-px-book-font-style);
+}
+
+.about-us-filip-rankovic {
+    position: absolute;
+    width: calc(688 / 1920 * 100vw);
+    height: calc(660 / 1080 * 100vh);
+    top: calc(82 / 1080 * 100vh);
+    left: calc(88 / 1920 * 100vw);
+}
+
+.about-us-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: calc(10 / 1920 * 100vw);
+    padding: calc(18 / 1080 * 100vh) calc(43 / 1920 * 100vw);
+    position: absolute;
+    top: calc(644 / 1080 * 100vh);
+    left: calc(941 / 1920 * 100vw);
+    background-color: var(--white);
+    border-radius: calc(15 / 1080 * 100vh) calc(15 / 1920 * 100vw);
+    box-shadow: 0px calc(2 / 1920 * 100vw) calc(34 / 1080 * 100vh) calc(6 / 1920 * 100vw) #1f42832b;
+}
+
+.about-us-get-started-today {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Gordita-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--brand-colorprimary);
+    font-size: calc(20 / 1920 * 100vw);
+    text-align: right;
+    letter-spacing: -0.8px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.about-us-pattern-icon-2 {
+    position: absolute;
+    width: calc(206 / 1920 * 100vw);
+    height: calc(206 / 1080 * 100vh);
+    top: calc(82 / 1080 * 100vh);
+    left: calc(1389 / 1920 * 100vw);
+}
+
+/* About us End */
 
 /* Footer */
 footer {
