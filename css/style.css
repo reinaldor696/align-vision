@@ -309,12 +309,18 @@ header {
     position: absolute;
     display: flex;
     flex-direction: column;
+    right: calc(42 / 1920 * 100vw);
+}
+
+.div-3k {
+    padding-left: calc(32 / 1920 * 100vw);
 }
 
 .content-card1 img {
     width: calc(204 / 1920 * 100vw);
     height: calc(58.82 / 1080 * 100vh);
     margin:calc(25 / 1080 * 100vh) 0 .18px calc(31 / 1920 * 100vw);
+    object-fit: contain;
 }
 
 .content-card1 h2 {
@@ -326,6 +332,7 @@ header {
     line-height: 123.565%;
     letter-spacing: calc(-2.17 / 1920 * 100vw);
     margin-left: calc(32 / 1920 * 100vw);
+    
 }
 
 .content-card1 h3 {
@@ -381,8 +388,8 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 130%;
-    letter-spacing: -2.6px;
-    margin: 70px 0 102px 784px;
+    letter-spacing: calc(-2.6 / 1920 * 100vw);
+    margin: calc(70 / 1080 * 100vh) 0 calc(102 / 1080 * 100vh) calc(784 / 1920 * 100vw);
 }
 
 .title-content4-container1 span {
@@ -392,7 +399,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
-    letter-spacing: -2.6px;
+    letter-spacing: calc(-2.6 / 1920 * 100vw);
 }
 
 .img-content4-container1 img {
@@ -403,11 +410,11 @@ header {
 .img-text-content4-container1 {
     display: flex;
     flex-direction: row;
-    margin-bottom: 131px;
+    margin-bottom: calc(131 / 1080 * 100vh);
 }
 
 .text-content4-container1 {
-    margin-left: 182px;
+    margin-left: calc(182 / 1920 * 100vw);
 }
 
 .text-content4-container1 h3 {
@@ -417,18 +424,18 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 130%;
-    letter-spacing: -1.6px;
+    letter-spacing: calc(-1.6 / 1920 * 100vw);
 }
 
 .all-text-content4 {
-    margin-left: 3px;
+    margin-left: calc(3 / 1920 * 100vw);
 }
 
 .text1-content4-container1 {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    margin-top: 54px;
+    gap: calc(10 / 1920 * 100vw);
+    margin-top: calc(54 / 1080 * 100vh);
 }
 
 .text1-content4-container1 svg {
@@ -449,7 +456,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin: 54px 0 83px 0;
+    margin: calc(54 / 1080 * 100vh) 0 calc(83 / 1080 * 100vh) 0;
 }
 
 .text2-content4-container1 svg {
@@ -504,18 +511,20 @@ header {
 
 .patients-square {
     position: absolute;
-    width: 27.760417vw;
-    height: 42.708333vw;
-    top: 3.385417vw;
-    left: 9.010417vw;
+    width: calc(533 / 1920 * 100vw);
+    height: calc(820 / 1080 * 100vh);
+    top: calc(65 / 1080 * 100vh);
+    left: calc(173 / 1920 * 100vw);
+    object-fit: contain;
 }
 
 .phone {
     position: absolute;
-    width: 19.322917vw;
-    height: 36.71875vw;
-    top: 9.114583vw;
-    left: 1.822917vw;
+    width: calc(371 / 1920 * 100vw);
+    height: calc(705 / 1080 * 100vh);
+    top: calc(175 / 1080 * 100vh);
+    left: calc(35 / 1920 * 100vw);
+    object-fit: contain;
 }
 
 /* Container1 End */
